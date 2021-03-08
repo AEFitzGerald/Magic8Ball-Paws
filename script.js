@@ -1,6 +1,6 @@
 $(document).ready(function(){
 var magic8Ball = {};
-magic8Ball.listOfAnswers = ["yes", "abundant yes", "it's inconceivable", "maybe", "listen to your heart", "its possible", "most definitely", "it is likely", "no", "unfortunately not", "not in the immediate future", "keep dreaming"];
+magic8Ball.listOfAnswers = ["yes", "abundant yes", "indeed soon","it's inconceivable", "maybe", "listen to your heart", "its possible", "most definitely", "it is likely", "no", "keep dreaming"];
 $("#answer").hide();
 
 magic8Ball.askQuestion = function(question) {
