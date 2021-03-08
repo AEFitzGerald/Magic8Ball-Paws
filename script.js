@@ -6,7 +6,7 @@ $("#answer").hide();
 magic8Ball.askQuestion = function(question) {
 	$("#8ball").effect("shake");
 	$("#answer").fadeIn(4000);
-  $("#8ball").attr("src", "img/magic8BallAnswer.png");
+  $("#8ball").attr("src", "img/magic8ballAnswer.png");
 
 
 var randomNumber = Math.random ();
@@ -20,7 +20,7 @@ var answer = this.listOfAnswers[randomIndex];
 
 var onClick = function() {
 $("#answer").hide();
-$("#8ball").attr("src", "img/magic8ballQuestion.png");
+$("#8ball").attr("src", "img/magic8BallQuestion.png");
  setTimeout(function() {
     var question = prompt("Ask the Magic 8 Ball a question:");
     magic8Ball.askQuestion(question); }, 1000);
